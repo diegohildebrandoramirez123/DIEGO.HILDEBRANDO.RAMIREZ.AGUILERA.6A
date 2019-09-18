@@ -1,0 +1,56 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{DIEGO HILDEBRANDO RAMIREZ AGUILERA}
+\title{PAR DE ROTACION Y CUATERNIOS}
+\begin{document}
+\maketitle
+\section{Par de rotacion}
+Necesariamente el manipular cualquier objeto con un robot implica el movimiento de su extremo. Asimismo, para manipular una pieza es necesario conocer la ubicación y orientación con respecto a la base del robot de ésta, por lo que se necesitan varias herramientas matemáticas para establecer relaciones espaciales entre distintos objetos que nos permitan saber la ubicación de uno respecto a otro.
+Para localizar un cuerpo rígido en el espacio se necesitan herramientas que nos permitan conocer la ubicación espacial de sus puntos. En el plano la localización se describe por dos componentes independientes, mientras que en el espacio tridimensional son necesarios tres componentes. Existen diferentes formas de representar la posición en el espacio, la más común es por medio de coordenadas cartesianas, pero existen además otros métodos como las coordenadas polares para planos y coordenadas cilíndricas y esféricas para el espacio tridimensional.
+
+\subsection{Coordenadas artesianas}
+Un punto definido en el plano estará definido por las componentes x e y, por ejemplo el punto (a,b) se ubica a una distancia a medida desde el origen en el eje de las x (horizontal) y a una altura b medida desde el origen en el eje y (vertical). En el caso de las coordenadas en tres dimensiones el punto se definirá con las componentes (x,y,z), es decir, solamente se agrega un dato más (z) para indicar la posición a lo largo del eje z (perpendicular al eje x y y).
+\subsection{Coordenadas polares y cilindricas}
+El sistema de coordenadas polares es un sistema de coordenadas bidimensional en el cual cada punto (posición) en el plano viene determinado por un ángulo y una distancia. El sistema de coordenadas polares resulta especialmente útil en situaciones donde la relación entre dos puntos es más fácil de expresar en términos de ángulos y distancias, mientras que en el sistema de coordenadas cartesianas o rectangulares estas mismas relaciones deben ser expresadas mediante fórmulas trigonométricas.
+Al ser un sistema de coordenadas bidimensional, cada punto dentro del plano se encuentra determinado por dos coordenadas: la coordenada radial y la coordenada angular. La coordenada radial (comúnmente simbolizada por r o p) expresa la distancia del punto al punto central del sistema conocido como polo (equivalente al origen del sistema Cartesiano). La coordenada angular (también conocida como ángulo polar o ángulo acimutal, y usualmente simbolizada por 0 ó t) expresa el ángulo positivo (en sentido antihorario) medido desde el eje polar (equivalente al eje de abscisas del sistema cartesiano).
+
+Las coordenadas cilíndricas son un sistema de coordenadas para definir la posición de un punto del espacio mediante un ángulo, una distancia con respecto a un eje y una altura en la dirección del eje.
+\subsection{Coordenadas esfericas}
+El sistema de coordenadas esféricas se basa en la misma idea que las coordenadas polares y se utiliza para determinar la posición espacial de un punto mediante una distancia y dos ángulos.
+
+\includegraphics[scale=1]{../Pictures/1tg.jpg} 
+\section{Cuaterniones}
+Los cuaterniones unitarios proporcionan una notación matemática para representar las orientaciones y las rotaciones de objetos en tres dimensiones. Comparados con los ángulos de Euler, son más simples de componer y evitan el problema del bloqueo del cardán. Comparados con las matrices de rotación, son más eficientes y más estables numéricamente. Los cuarteniones son útiles en aplicaciones de gráficos por computadora, robótica, navegación y mecánica orbital de satélites.
+\subsection{Utilizacion de cuaternios}
+Los cuaternios, gracias a las propiedades algebraicas antes descritas, son útiles para representar rotaciones de un objeto respecto a otro. Primeramente definimos un cuaternio que representa un giro de valor 0 sobre un eje k.
+
+
+
+
+
+
+\includegraphics[scale=1]{../Pictures/teheh (3).jpg} 
+\subsection{Exponenciacion}
+La exponenciación cuaternios, al igual que sucede con los complejos, está relacionada con funciones trigonométricas. Dado un cuaternio escrito en forma canónica q = a + bi + cj + dk su exponenciación resulta ser:
+
+\includegraphics[scale=1]{../Pictures/teheh (2).jpg} 
+
+Uno de los problemas fundamentales de la cinemática del robot es la cinemática directa, que consiste en conocer la posición y orientación del robot si son conocidos los valores de sus articulaciones.
+
+Un método propuesto para describir y representar la geometría espacial de los elementos de una cadena cinemática fue propuesto por Denavit y Hartenberg. El método utiliza una matriz de transformación homogénea para describir la relación espacial entre dos elementos rígidos adyacentes, reduciéndose el problema cinemático directo a encontrar una matriz de transformación homogénea 4 x 4 que relacione la localización del robot con respecto al sistema de coordenadas de su base.
+
+Resolución de un problema de cinemática directa con matrices de trasformación homogénea.
+Referencias\cite{reyes2011robotica}, articulo
+\cite{baturone2005robotica}.
+
+\bibliographystyle{ieeetr}
+\bibliography{BIBLIO}
+
+\end{document}
+
