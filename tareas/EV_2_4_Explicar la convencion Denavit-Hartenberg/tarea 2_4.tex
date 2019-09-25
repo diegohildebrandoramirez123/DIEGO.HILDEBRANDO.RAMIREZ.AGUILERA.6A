@@ -1,0 +1,28 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{DIEGO HILDEBRANDO RAMIREZ AGUILERA}
+\title{convencion Denavit-Hartenberg}
+\begin{document}
+\maketitle
+\clearpage
+\subsection{parametros}
+El estudio de los parámetros Denavit-Hartenberg (DH) forma parte de todo curso básico sobre robótica, ya que son un estándar a la hora de describir la geometría de un brazo o manipulador robótico.  Se usan para resolver de forma trivial el problema de la cinemática directa, y como punto inicial para plantear el más complejo de cinemática inversa.Más abajo describo el algoritmo exacto que permite determinar los parámetros para cualquier brazo, pero prefiero comenzar de forma más visual así que os dejo con el siguiente vídeo donde explico el significado de los cuatro parámetros asociados a cada uno de los eslabones de un brazo:
+\subsection{1.	Elección de referencias para cada articulación.}
+\subsection{2.	Obtención de los parámetros de Denavit-Hartenberg.}
+\subsection{3.	Crear una tabla e introducción de datos en el modo de visualización.}
+\subsection{4. Introducir giros para establecer la posición inicial.}
+\section{Elección de referencias para cada articulación}
+\subsection{Comenzamos estableciendo una base fija o eslabón 0 que será la base desde la que se mueve nuestro sistema. Lo normal es escoger el eje z_0 en la vertical y los otros dos (x_0, y_0) perpendiculares entre ellos.}
+
+\subsubsection{El resto de ejes z se dispondrán en la dirección de giro de cada articulación, como aparece en la siguiente figura.}
+
+\includegraphics[scale=1]{../Downloads/ejemplo-d-h-puma-560-paso-a-paso-4-638-e1408614102578.jpg} 
+
+
+\end{document}
