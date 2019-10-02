@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{DIEGO HILDEBRANDO RAMIREZ AGUILERA}
+\title{condiciones de singularidad de manipuladores seriales}
+\begin{document}
+\maketitle
+\section{Introduccion}
+Un robot manipulador serie es una cadena cinematica abierta compuesta de una secuencia de elementos estructurales r´ıgidos, denominados eslabones, conectados entre s´ı a traves de articulaciones, que permiten el movimiento relativo de cada par
+de eslabones consecutivos. Al final del ultimo eslabon puede anadirse una herramienta o dispositivo, denominado elemento terminal.Asimismo, a cada articulacion´ i se le asocia un sistema de coordenadas {i} que se utiliza paradescribir su posicion´y orientacion relativas. La relaci ´ on entre los sistemas de coordenadas asociados articulaciones consecutivas viene descrita
+mediante una matriz de transformacion homogenea construida a partir de los parametros de Denavit-Hartenberg (D-H) (Craig,1989; Siciliano et al., 2008; Spong et al., 2006; 
+\section{Descripcion}
+La resolucion de la cinem ´ atica inversa consiste en hallar las ´
+configuraciones asociadas a una pose concreta del elemento terminal. Como se comento en la introducci ´ on, las soluciones pue- ´
+den agruparse en dos grupos: soluciones anal´ıticas, o en forma
+cerrada, y soluciones numericas. ´
+Para manipuladores no redundantes que poseen muneca es- ˜
+ferica, (Pieper, 1968) demostr ´ o de forma constructiva que siem- ´
+pre existe solucion anal ´ ´ıtica. Mas a ´ un, demostr ´ o tambi ´ en que ´
+cualquier robot manipulador con tres articulaciones consecutivas cuyos ejes se cortan en un punto o son paralelos tiene solucion en forma cerrada. Los manipuladores no redundantes que ´
+no poseen muneca esf ˜ erica y los manipuladores redundantes ´
+no tienen solucion anal ´ ´ıtica en general, por lo que se emplean
+metodos num ´ ericos para obtener al menos una buena aproxima- ´
+cion de una de las soluciones. Estos m ´ etodos iterativos general- ´
+mente se basan en el metodo de Newton para resolver sistemas ´
+de ecuaciones no lineales (Buss, 2009; Buss and Kim, 2005).
+No obstante, para el caso de robots manipuladores redundantes con muneca esf ˜ erica se puede hallar un procedimiento ´
+para obtener el conjunto de soluciones en forma cerrada. Para
+ello, si el manipulador tiene m GdL redundantes, se parametrizan m variables articulares. De esta forma se reduce el problema
+al caso no redundante donde se pueden aplicar los metodos de ´
+Pieper o (Paul, 1981) en donde se obtienen las soluciones en
+funcion de las variables articulares parametrizadas. Para com- ´
+pletar la solucion, se definen funciones que optimizan dichos ´
+parametros en funci ´ on de un objetivo secundario, como evitar ´
+singularidades, evitar limites articulares, etc.
+
+\includegraphics[scale=2]{../../../Pictures/fvfvvf.jpg} 
+\section{Analisis de singularidad}
+En esta secci´on de presenta la metodolog´ıa
+seguida en el an´alisis de singularidad. Con la
+finalidad de abarcar todas las posibles configuraciones singulares del mecanismo espacial
+tipo RRRCR, se har´a un an´alisis exhaustivo
+de la ecuaci´on de velocidad, ver ecuaci´on (6),
+utilizando toda la potencia matem´atica ofrecida
+por los vectores y las matrices.
+De esta manera, el conjunto de todas las posibilidades se obtiene intercambiando las diferentes
+posiciones que pueden adoptar todos los t´erminos, tanto en el lado izquierdo (tres) como en
+el lado derecho (un t´ermino) de la ecuaci´on (6).
+As´ı pues, el total de posibilidades ser´ıa de 24. Sin
+embargo, debido a que cada producto vectorial del
+tipo (a×b)· c debe cumplir con el siguiente ciclo
+de 6 identidades:
+
+
+\end{document}
