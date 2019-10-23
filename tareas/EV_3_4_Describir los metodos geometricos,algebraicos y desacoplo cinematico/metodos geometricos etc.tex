@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{DIEGO HILDEBRANDO RAMIREZ AGUILERA}
+\title{Metodos geometricos,algebraico y desacoplo cinematico}
+\begin{document}
+\maketitle
+\section{Introduccion}
+Un robot esta destinado a realizar una funcion con una herramienta determinada,para ello es necesario localizar(posicionar y orientar)el terminal del robot en cada instante.La localizacion terminal repercute en el movimiento del resto de sus articulaciones.
+se utiliza relaciones geometricas para obtener directamente a posicion del extremo del robot en funcion de las variables articulares y requiere buena vision espacial.
+\section{Metodo geometrico}
+Es un metodo no sistematico que utiliza las relaciones geometricas para obtener la posicion del extremo del robot.
+Normalmente se emplea para la obtencion de la posicion y no de la orientacion.
+Se usan en los robots de pocos grados de libertad.
+
+
+\includegraphics[scale=]{../../../../Pictures/robotica-edinsoncs-ockangplcautomatas-cinematicaautomatizacion-y-robotica-14-638.jpg} 
+\section{Metodo Algebraico}
+A travez de Transformacion Homogenea,En principio es posible tratar de obtener el modelado cinematico de un robot apartir de el conocimiento de su modelo directo.
+Es decir,suponiendo conocidas las relaciones que expresan el valor de la funcion de sus coordenadas articulares,obtener por manipulacion de aquellas relaciones inversas.
+Apartir de eso es inmediato obtener las matrices A y la matriz T.
+
+Indispensables para transformar cambios diferenciales en un sistema de coordenadas a otro sistema de coordenadas diferente,por ejemplo,en el calculo de cambios diferenciales,observados en una camara,en posicion y orientacion del efector final de un manipulador.
+
+\includegraphics[scale=1]{../../../../Pictures/f0206316.jpg} 
+
+\section{Desacoplo cinematico}
+La cinematica de un robot estudia el movimiento del mismo con respecto a un sistema de referencia fijo sin considerar las fuerzas y momentos que originan dichos movimientos.
+Busca las relaciones entre la localizacion (posicion y orientacion) del extremo del robot y los valores de sus coordenadas articulares.
+Busca las relaciones entre las velocidades del movimiento de las articulaciones y el extremo(modelo-diferencial-matriz Jacobiana).
+Los procedimientos vistos permiten obtener los valores de las 3 primeras variables articulares del robot,aquellas que posicionan su extremo en las coordenadas (Px,Py,Pz) determinadas,aunque pueden ser igualmente utilizadas para la obtencion de las 6 a costa de una mayor complejidad.
+
+En general no basta con posicionar el extremo del robot en un punto del espacio,si no que es preciso conseguir que la herramienta se oriente de una manera determinadada.Para ello los robots cuentan con otros tres grados de libertad adicionales,situados al final de la cadena cinematica y cuyos ejes,generalmente se denomina muñeca del robot,si bien la variacion de estos tres ultimos grados de libertad origina un cambio en la posicion final del extremo real del robot,su verdadero objetivo es poder orientarla herramienta del robot libremente en el espacio.
+
+
+\subsection{Cinematica DIRECTA}
+Dertermina la localizacion del extremo del robot,con respecto a un sistema de coordenadas de referencia,conocidos los valores de las articulaciones y los parametros geometricos de los parametros del robot.
+\subsection{Cinematica INVERSA}
+Conocida la localizacion del robot determina cual debe ser la configuracion del robot(articulaciones y parametros geometricos)
+
+\includegraphics[scale=0.7]{../../../../Pictures/robotica-edinsoncs-ockangplcautomatas-cinematicaautomatizacion-y-robotica-19-638.jpg} 
+
+
+
+\end{document}
