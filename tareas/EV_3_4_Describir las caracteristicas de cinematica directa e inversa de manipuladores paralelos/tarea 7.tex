@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{DIEGO HILDEBRANDO RAMIREZ AGUILERA}
+\title{Caracteristicas de cinematica directa e inversa de manipouladores paralelos}
+
+
+
+\begin{document}
+\maketitle
+\includegraphics[scale=0.3]{../../../../Downloads/CUeq3LKx.png} 
+
+\clearpage
+
+\section{Introduccion}
+En robots paralelos, la cinemática inversa consiste en encontrarlas variables de las juntas activas y pasivas en función de las coordenadas del efector final del robot y puede ser utilizada para controlarla posición del efector final. El modelo cinemático de este tipo de robots tiene ecuaciones algebraicas con múltiples soluciones.
+\section{cinematica directa}
+En la cinemática directa de robots paralelos el problema es determinar la posición del efector final en función de las juntas activas. En general, la solución a este problema no es única, de ahí que la cinemática ha sido objeto de una intensa investigación, por ejemplo, el trabajo reportado por Merlet. Raghavan muestra la solución de la cinemática directa de un manipulador paralelo resolviendo en función de un polinomio.
+
+El problema de la cinemática directa es reducir las ecuaciones de posición a un polinomio en función de las variables activas. Sin embargo, la solución del polinomio no asegura la correcta evolución de las variables de las juntas activas y no considera a las juntas pasivas,al ejecutar una tarea dada. Por otro lado, no hay algoritmo conocido que permita la fácil determinación de una postura única para la plataforma móvil.
+
+Un robot se puede considerar como una cadena
+cinemática formada por objetos rígidos (eslabones)
+unidos entre sí por articulaciones.
+
+\includegraphics[scale=0.7]{../../../../Pictures/utrfuuji} 
+
+Se considera un robot paralelo plano cuya plataforma móvil,tiene tres grados de libertad, de los cuales, dos son a lo largo de los ejes x e y, y el tercero es una rotación θ alrededor del eje z.
+
+\includegraphics[scale=0.7]{../../../../Pictures/hhhh} 
+
+\section{Cinematica inversa}
+Conocida la localización del robot, determina cual debe
+ser la configuración del robot (articulaciones y
+parámetros geométricos).
+
+Se basan en descomponer la cadena cinemática en distintos planos geométricos y resolviendo por
+trigonometría cada plano Se trata de encontrar el Datos: Px, Py, Pz donde se quiere situar el extremo del robot.plano. numero suficiente de relaciones geométricas para posicionar el extremo del robot. Se utiliza para las primeras articulaciones.
+
+\includegraphics[scale=0.6]{../../../../Pictures/aquedebousar} 
+
+Hasta ahora se ha considerado únicamente las relaciones de las articulaciones de una manera estática en ausencia de movimiento del robot (problemas Cinemático Directo e Inverso).
+Cuando el robot se desplaza, los elementos de la cadena cinemática propagan de una articulación a al siguiente tanto velocidades lineales como angulares.
+La velocidad del elemento i+1 será la del elemento i mas las componentes que añade la articulación i+1.
+
+Se basan en al resolución independiente de los grados de libertad que posicionan (3) y de los que orientan la muñeca (3).
+Por lo que el problema cinemático inverso se divide en dos subproblemas:
+1. Resolver las tres primeras articulaciones de posición.
+2. Resolver las tres ultimas articulaciones que corresponden a la muñeca.
+
+\end{document}
