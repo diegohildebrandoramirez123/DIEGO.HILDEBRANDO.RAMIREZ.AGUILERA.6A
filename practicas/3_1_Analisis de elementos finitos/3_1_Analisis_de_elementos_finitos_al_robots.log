@@ -1,0 +1,487 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.17)  31 OCT 2019 01:12
+entering extended mode
+**./3_1_Analisis_de_elementos_finitos_al_robots.tex
+(3_1_Analisis_de_elementos_finitos_al_robots.tex
+LaTeX2e <2018-12-01>
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen114
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count101
+)
+\es@quottoks=\toks22
+\es@quotdepth=\count102
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks23
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg")) (3_1_Analisis_de_elementos_finitos_al_robots.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `3_1_Analisis_de_elementos_finitos_al_robots.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen123
+\scratchbox=\box29
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen124
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks25
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+("C:\Users\juanm\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: No \author given.
+
+<../Pictures/UPZMG_Prueba_1b.png, id=1, 221.1462pt x 240.9pt>
+File: ../Pictures/UPZMG_Prueba_1b.png Graphic file (type png)
+<use ../Pictures/UPZMG_Prueba_1b.png>
+Package pdftex.def Info: ../Pictures/UPZMG_Prueba_1b.png  used on input line 14
+.
+(pdftex.def)             Requested size: 221.14565pt x 240.8994pt.
+[1
+
+{C:/Users/juanm/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../Pictures
+/UPZMG_Prueba_1b.png>]
+<../Pictures/Proyecto/fma.jpg, id=10, 293.095pt x 172.645pt>
+File: ../Pictures/Proyecto/fma.jpg Graphic file (type jpg)
+<use ../Pictures/Proyecto/fma.jpg>
+Package pdftex.def Info: ../Pictures/Proyecto/fma.jpg  used on input line 39.
+(pdftex.def)             Requested size: 293.09427pt x 172.64456pt.
+ [2
+
+ <../Pictures/Proyecto/fma.jpg>]
+<../Pictures/Proyecto/BaseEnsamble.PNG, id=15, 829.59938pt x 414.79968pt>
+File: ../Pictures/Proyecto/BaseEnsamble.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/BaseEnsamble.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/BaseEnsamble.PNG  used on input l
+ine 51.
+(pdftex.def)             Requested size: 165.91693pt x 82.95847pt.
+<../Pictures/Proyecto/Armado.PNG, id=16, 832.61063pt x 414.04688pt>
+File: ../Pictures/Proyecto/Armado.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Armado.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Armado.PNG  used on input line 52
+.
+(pdftex.def)             Requested size: 166.51917pt x 82.80789pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+<../Pictures/Proyecto/Completo.PNG, id=17, 828.84656pt x 413.29407pt>
+File: ../Pictures/Proyecto/Completo.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Completo.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Completo.PNG  used on input line 
+65.
+(pdftex.def)             Requested size: 165.76637pt x 82.65733pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <../Pictures/Proyecto/BaseEnsamble.PNG> <../Pictures/Proyecto/Armado.PNG>]
+<../Pictures/Proyecto/Entorno.PNG, id=24, 522.45187pt x 78.2925pt>
+File: ../Pictures/Proyecto/Entorno.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Entorno.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Entorno.PNG  used on input line 7
+9.
+(pdftex.def)             Requested size: 261.2253pt x 39.14615pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+<../Pictures/Proyecto/AplicacionFuerzas.PNG, id=25, 274.02374pt x 243.91125pt>
+File: ../Pictures/Proyecto/AplicacionFuerzas.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/AplicacionFuerzas.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/AplicacionFuerzas.PNG  used on in
+put line 88.
+(pdftex.def)             Requested size: 164.41551pt x 146.34787pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+[4 <../Pictures/Proyecto/Completo.PNG> <../Pictures/Proyecto/Entorno.PNG> <../P
+ictures/Proyecto/AplicacionFuerzas.PNG>]
+
+LaTeX Warning: Reference `fig:Material' on page 5 undefined on input line 95.
+
+<../Pictures/Proyecto/2.PNG, id=32, 335.00156pt x 57.21375pt>
+File: ../Pictures/Proyecto/2.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/2.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/2.PNG  used on input line 99.
+(pdftex.def)             Requested size: 167.50037pt x 28.6068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<../Pictures/Proyecto/Tension.PNG, id=33, 829.59938pt x 412.54124pt>
+File: ../Pictures/Proyecto/Tension.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Tension.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Tension.PNG  used on input line 1
+12.
+(pdftex.def)             Requested size: 248.88173pt x 123.76332pt.
+<../Pictures/Proyecto/Tension1.PNG, id=34, 207.77625pt x 141.52875pt>
+File: ../Pictures/Proyecto/Tension1.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Tension1.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Tension1.PNG  used on input line 
+119.
+(pdftex.def)             Requested size: 103.88786pt x 70.76419pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <../Pictures/Proyecto/2.PNG> <../Pictures/Proyecto/Tension.PNG>]
+<../Pictures/Proyecto/Desplazamiento.PNG, id=40, 204.01219pt x 154.32657pt>
+File: ../Pictures/Proyecto/Desplazamiento.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/Desplazamiento.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/Desplazamiento.PNG  used on input
+ line 128.
+(pdftex.def)             Requested size: 102.00584pt x 77.16309pt.
+<../Pictures/Proyecto/DesplazamientoTabla.PNG, id=41, 158.84344pt x 210.7875pt>
+
+File: ../Pictures/Proyecto/DesplazamientoTabla.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/DesplazamientoTabla.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/DesplazamientoTabla.PNG  used on 
+input line 129.
+(pdftex.def)             Requested size: 79.42152pt x 105.3935pt.
+<../Pictures/Proyecto/CoeficienteSeguridad.PNG, id=42, 166.37157pt x 218.31563p
+t>
+File: ../Pictures/Proyecto/CoeficienteSeguridad.PNG Graphic file (type png)
+<use ../Pictures/Proyecto/CoeficienteSeguridad.PNG>
+Package pdftex.def Info: ../Pictures/Proyecto/CoeficienteSeguridad.PNG  used on
+ input line 138.
+(pdftex.def)             Requested size: 83.18556pt x 109.15753pt.
+ [6 <../Pictures/Proyecto/Tension1.PNG> <../Pictures/Proyecto/Desplazamiento.PN
+G> <../Pictures/Proyecto/DesplazamientoTabla.PNG> <../Pictures/Proyecto/Coefici
+enteSeguridad.PNG>] [7] (3_1_Analisis_de_elementos_finitos_al_robots.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3887 strings out of 492895
+ 55861 string characters out of 3123735
+ 138239 words of memory out of 3000000
+ 7722 multiletter control sequences out of 15000+200000
+ 12750 words of font info for 49 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,31p,877b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/juanm/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/juanm/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/juanm/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/juanm/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 3_1_Analisis_de_elementos_finitos_al_robots.pdf (7 pages, 157
+1629 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
